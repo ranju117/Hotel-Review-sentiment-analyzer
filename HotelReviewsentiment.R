@@ -3,8 +3,8 @@ library(rvest)
 library(stringr)
 library(sentimentr)
 library(tidyverse)
-df<-read.csv(file="/home/ranjani/Downloads/b.csv", sep=",", colClasses=c("NULL", NA, "NULL"))
-#df <- read.csv("/home/ranjani/Downloads/b1.csv",header = FALSE)
+df<-read.csv(file="./b.csv", sep=",", colClasses=c("NULL", NA, "NULL"))
+
 n<-0
 mb<-0
 vb<-0
